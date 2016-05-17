@@ -4,6 +4,8 @@
   "description": "An adapter which make it easier to use Prism in Node.js.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./index.js",
+    "eslint-fix": "eslint --fix ./index.js",
     "test": "mocha"
   },
   "repository": {
@@ -23,5 +25,9 @@
   "homepage": "https://github.com/benjycui/node-prismjs#readme",
   "dependencies": {
     "prismjs": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-egg": "^2.0.0"
   }
 }
