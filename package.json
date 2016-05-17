@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/benjycui/node-prismjs/issues"
   },
-  "homepage": "https://github.com/benjycui/node-prismjs#readme"
+  "homepage": "https://github.com/benjycui/node-prismjs#readme",
+  "dependencies": {
+    "prismjs": "^1.5.0"
+  }
 }
