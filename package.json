@@ -1,0 +1,24 @@
+{
+  "name": "node-prismjs",
+  "version": "0.1.0",
+  "description": "An adapter which make it easier to use Prism in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjycui/node-prismjs.git"
+  },
+  "keywords": [
+    "prism.js",
+    "node.js",
+    "adapter"
+  ],
+  "author": "Benjy Cui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjycui/node-prismjs/issues"
+  },
+  "homepage": "https://github.com/benjycui/node-prismjs#readme"
+}
