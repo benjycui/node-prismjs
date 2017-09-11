@@ -1,6 +1,6 @@
 {
   "name": "node-prismjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An adapter which make it easier to use Prism in Node.js.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/benjycui/node-prismjs#readme",
   "dependencies": {
-    "prismjs": "^1.5.0"
+    "prismjs": "~1.6.0"
   },
   "devDependencies": {
     "eslint": "^2.10.2",
