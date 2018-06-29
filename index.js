@@ -15,7 +15,7 @@ const prismCore = 'prismjs/components/prism-core';
 const Prism = require(prismCore);
 
 const prelude = [
-  'prism-clike', 'prism-javascript', 'prism-markup',
+  'prism-clike', 'prism-markup', 'prism-javascript',
   'prism-c', 'prism-ruby', 'prism-css',
 ];
 const prismComponents = path.dirname(require.resolve(prismCore));
