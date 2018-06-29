@@ -1,6 +1,6 @@
 {
   "name": "node-prismjs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An adapter which make it easier to use Prism in Node.js.",
   "main": "index.js",
   "scripts": {
