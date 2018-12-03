@@ -1,0 +1,8 @@
+box: debian:jessie
+
+build:
+  steps:
+    - script:
+        name: Test
+        code: |
+          npm run lint
