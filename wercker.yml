@@ -1,8 +1,9 @@
-box: debian:jessie
+box: node:10.3.0-alpine
 
 build:
   steps:
     - script:
         name: Test
         code: |
+          npm install
           npm run lint
